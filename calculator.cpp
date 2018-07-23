@@ -123,6 +123,7 @@ void Calculator::ChangeSign() {
 void Calculator::AC() {
     QString displayVal = ui->Display->text();
     ui->Display->setText("0");
+    memvar = 0.0;
 }
 
 void Calculator::M() {
